@@ -1,8 +1,8 @@
-# Outcome Metrics
+# CSV Stats
 
 First principle: Count each entity once per cohort and keep the event evidence that supports every result.
 
-Outcome Metrics maps CSV event exports into versioned cohort measures. Its installed Mac app starts and stops its local server with the window. The included demo data is synthetic.
+CSV Stats maps CSV event exports into versioned cohort measures. Its installed Mac app starts and stops its local server with the window. The included demo data is synthetic.
 
 ## Install and run the Mac app
 
@@ -15,7 +15,7 @@ python3.12 -m venv .desktop-venv
 .desktop-venv/bin/python install_desktop.py
 ```
 
-Open `~/Applications/Outcome Metrics.app` from Finder. Close the window or press Command-Q to stop the app and its local listener. To uninstall, move that app to Trash. The installer preserves a previous owned copy beside the replacement and refuses to replace an unrelated app.
+Open `~/Applications/CSV Stats.app` from Finder. Close the window or press Command-Q to stop the app and its local listener. To uninstall, move that app to Trash. The installer preserves a previous owned copy beside the replacement and refuses to replace an unrelated app.
 
 PyInstaller applies an ad-hoc signature. The app has no Apple Developer ID signature and is not notarized. macOS may ask you to approve opening it.
 
