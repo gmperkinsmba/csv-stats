@@ -1,0 +1,3 @@
+Outcome Metrics desktop bundle
+io.github.gmperkinsmba.outcome-metrics
+local-build-owner-marker-v1
