@@ -201,12 +201,12 @@ def check_loopback():
 
 def make_server(host=HOST, port=PORT):
     if host != "127.0.0.1":
-        raise ValueError("Outcome Metrics binds to 127.0.0.1 only")
+        raise ValueError("CSV Stats binds to 127.0.0.1 only")
     return LocalServer((host, int(port)), Handler)
 
 
 if __name__ == "__main__":
     check_loopback()
     server = make_server()
-    print(f"Outcome Metrics listening at http://{HOST}:{server.server_port}")
+    print(f"CSV Stats listening at http://{HOST}:{server.server_port}")
     server.serve_forever()
